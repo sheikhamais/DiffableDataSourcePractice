@@ -66,7 +66,7 @@
 		3450FE2D2B14C32A00021267 /* DiffableDataSourcePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffableDataSourcePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3450FE312B14C32A00021267 /* DiffableDataSourcePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePracticeUITests.swift; sourceTree = "<group>"; };
 		3450FE332B14C32A00021267 /* DiffableDataSourcePracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3450FE412B15C33F00021267 /* DiffablePracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffablePracticeController.swift; sourceTree = SOURCE_ROOT; };
+		3450FE412B15C33F00021267 /* DiffablePracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiffablePracticeController.swift; path = DiffableDataSourcePractice/OriginalDiffablePractice/DiffablePracticeController.swift; sourceTree = SOURCE_ROOT; };
 		3450FE442B15EF6A00021267 /* CompositionalLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutViewController.swift; sourceTree = "<group>"; };
 		3450FE462B16190F00021267 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3450FE492B17189500021267 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -108,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341506272B19F89C0008CA10 /* OriginalDiffablePractice */ = {
+			isa = PBXGroup;
+			children = (
+				3450FE412B15C33F00021267 /* DiffablePracticeController.swift */,
+			);
+			path = OriginalDiffablePractice;
+			sourceTree = "<group>";
+		};
 		3450FE012B14C32900021267 = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +139,8 @@
 		3450FE0C2B14C32900021267 /* DiffableDataSourcePractice */ = {
 			isa = PBXGroup;
 			children = (
+				341506272B19F89C0008CA10 /* OriginalDiffablePractice */,
 				3450FE432B15EF5800021267 /* CompositionalLayoutPractice */,
-				3450FE402B15C33000021267 /* PracticeContent */,
 				3450FE0D2B14C32900021267 /* AppDelegate.swift */,
 				3450FE0F2B14C32900021267 /* SceneDelegate.swift */,
 				3450FE112B14C32900021267 /* ViewController.swift */,
@@ -160,14 +168,6 @@
 				3450FE332B14C32A00021267 /* DiffableDataSourcePracticeUITestsLaunchTests.swift */,
 			);
 			path = DiffableDataSourcePracticeUITests;
-			sourceTree = "<group>";
-		};
-		3450FE402B15C33000021267 /* PracticeContent */ = {
-			isa = PBXGroup;
-			children = (
-				3450FE412B15C33F00021267 /* DiffablePracticeController.swift */,
-			);
-			path = PracticeContent;
 			sourceTree = "<group>";
 		};
 		3450FE432B15EF5800021267 /* CompositionalLayoutPractice */ = {
